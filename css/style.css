@@ -18,13 +18,21 @@
     width: 90%;
     color: #333;
     position: absolute;
-    top: 20%;
-    left: 10%;
+    top: 10%;
+    left: 5%;
+    text-align: center;
     
 }
 
 .head-text h1 {
-    font-size: 40px;
+    font-size: 50px;
+}
+
+.part-2 {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
 }
 
 .nav-list {
