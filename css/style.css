@@ -6,7 +6,7 @@
 }
 
 .header {
-    min-height: 100vh;
+    min-height: 70vh;
     width: 100%;
     background-image: url('../images/barber5.jpg');
     background-position: center;
@@ -39,7 +39,7 @@
     width: 80%;
     margin: auto;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 80px;
 }
 
 .row {
@@ -51,7 +51,7 @@
 .row-col {
     flex-basis: 31%;
     background: rgb(194, 192, 192);
-    border-radius: 10px;
+    border-radius: 50px;
     margin-bottom: 5%;
     padding: 20px 12px;
     box-sizing: border-box;
@@ -67,6 +67,14 @@
     }
 }
 
+.about {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+
+}
+/*
 .nav-list {
     font-size: 130%;
 }
@@ -97,7 +105,7 @@
 .nav-list li:hover:after {
     width: 100%;
 }
-
+*//
 footer {
     border-top: 1px solid #f1f1f1;
     box-shadow: 0px -2px 3px #f1f1f1;
