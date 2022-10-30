@@ -1,39 +1,33 @@
+
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Abel', sans-serif;
-
+    font-family: 'Century Gothic,CenturyGothic,AppleGothic,sans-serif'; 
 }
 
 .header {
     min-height: 70vh;
     width: 100%;
-    background-image: url('../images/barber5.jpg');
+    background-image: url('../images/barber1.jpg');
     background-position: center;
     background-size: cover;
     position: relative;
 }
 
 .head-text {
-    width: 90%;
-    color: #333;
+    width: 50%;
+    color: rgb(194, 192, 192);
     position: absolute;
-    top: 10%;
+    top: 5%;
     left: 5%;
-    text-align: center;
-    
+      
 }
 
 .head-text h1 {
     font-size: 50px;
 }
 
-@media(max-width: 700px) {
-    .head-text h1 {
-        font-size: 20px;
-    }
- 
-}
+
 
 .part-2 {
     width: 80%;
@@ -61,11 +55,7 @@
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }
 
-@media(max-width: 700px) {
-    .row {
-        flex-direction: column;
-    }
-}
+
 
 .about {
   width: 80%;
@@ -74,7 +64,11 @@
   padding-top: 100px;
 
 }
-/*
+
+.about p {
+    margin-top: 20px;
+}
+
 .nav-list {
     font-size: 130%;
 }
@@ -88,14 +82,14 @@
 
 .nav-list li a {
     text-decoration: none;
-    color: rgb(17, 16, 16);
+    color: rgb(194, 192, 192);
 }
 
 .nav-list li::after {
     content: '';
     height: 3px;
     width: 0;
-    background: rgb(17, 16, 16);
+    background: rgb(194, 192, 192);
     position: absolute;
     left: 0;
     bottom: -5px;
@@ -105,10 +99,22 @@
 .nav-list li:hover:after {
     width: 100%;
 }
-*//
+
 footer {
-    border-top: 1px solid #f1f1f1;
-    box-shadow: 0px -2px 3px #f1f1f1;
+    height: 150px;
+}
+
+.social-networks {
     text-align: center;
-    padding: 2rem;
+}
+
+.social-networks>li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
 }
