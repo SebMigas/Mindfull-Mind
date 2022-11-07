@@ -5,7 +5,7 @@
     padding: 0;
     font-family: 'Century Gothic,CenturyGothic,AppleGothic,sans-serif';
     box-sizing: border-box;
-    
+
 }
 
 
@@ -13,47 +13,13 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #848C8E;
+    background-color: #435058;
     padding: 0.5em 0 2em;
 }
 
 .logo {
     text-align: center;
     padding: 10px;
-}
-
-
-
-.menu {
-    list-style: none;
-    display: flex;
-    float: right;
-   
-       
-}
-
-.menu-item a {
-    display: inline-block;
-    padding: 10px 15px;
-    text-decoration: none;
-    color: #333;
-    font-size: 20px;
-}
-
-nav a:hover,
-nav a:focus {
-    color: #a9a8a8;
-    text-decoration: underline;
-}
-
-
-.hero {
-    max-width: 100%;
-    height: 500px;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/hero2.jpg);
-    background-size: cover;
-
-
 }
 
 .button-top {
@@ -63,37 +29,56 @@ nav a:focus {
     background-color: #fff;
     min-height: 40px;
     min-width: 100px;
-    
-
 }
 
 .button-top:hover {
-    background-color: #333;
+    background-color: #848C8E;
     transition: 0.2s;
 }
 
-section, h2 {
-    background: #F1F2EE;
+.menu {
+    list-style: none;
+    display: flex;
+    float: right;
+}
+
+.menu-item a {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    
+}
+
+nav a:hover,
+nav a:focus {
+    color: #fff;
+    text-decoration: underline;
+}
+
+
+.hero {
+    max-width: 100%;
+    height: 700px;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/mm.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 .services-text {
     text-align: center;
     padding: 0.5em;
-   
 }
 
 .services-container img {
     width: 33%;
-    
-   
 }
 
-.services-container  {
+.services-container {
     display: flex;
     flex-direction: row;
-    background: #333;
-   
-  }
+}
 
 .prices-text {
     text-align: center;
@@ -101,7 +86,7 @@ section, h2 {
 }
 
 .price-row {
-  
+
     width: 90%;
     max-width: 1100px;
     margin: auto;
@@ -111,7 +96,7 @@ section, h2 {
 }
 
 .price-col {
-    background: #848C8E;
+    background: #BFB7B6;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 10% 15%;
     border-radius: 5px;
@@ -132,27 +117,22 @@ section, h2 {
     list-style: none;
 }
 
-.testimonials-text {
+.about-text {
     text-align: center;
-    padding: 0.5em; 
-}
-
-.testimonials {
-    background: #848C8E;
-    height: 200px;
-    text-align: center;
-    padding-top: 20px;
+    padding: 0.5em;
 }
 
 .about {
-    background: #848C8E;
+    background: #435058;
     height: 200px;
     text-align: center;
     padding-top: 20px;
 }
 
+
+
 footer {
-    background: #848C8E;
+    background: #435058;
     bottom: 0;
     width: 100%;
     height: 200px;
