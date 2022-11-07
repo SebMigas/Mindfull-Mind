@@ -13,18 +13,21 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
+    height: 10%;
     background-color: #435058;
     padding: 0.5em 0 2em;
+   
 }
 
 .logo {
-    text-align: center;
-    padding: 10px;
+    float: left;  
 }
+
+
 
 .button-top {
     position: absolute;
-    top: 35%;
+    top: 50%;
     left: 5%;
     background-color: #fff;
     min-height: 40px;
@@ -39,7 +42,8 @@ header {
 .menu {
     list-style: none;
     display: flex;
-    float: right;
+   float: right;
+    
 }
 
 .menu-item a {
@@ -47,7 +51,7 @@ header {
     padding: 10px 15px;
     text-decoration: none;
     color: black;
-    font-size: 20px;
+    font-size: 22px;
     
 }
 
@@ -60,7 +64,7 @@ nav a:focus {
 
 .hero {
     max-width: 100%;
-    height: 700px;
+    height: 60vh;
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/mm.jpg);
     background-position: center;
     background-size: cover;
