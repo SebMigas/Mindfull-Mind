@@ -5,38 +5,39 @@
     padding: 0;
     font-family: 'Century Gothic,CenturyGothic,AppleGothic,sans-serif';
     box-sizing: border-box;
+    
 }
-body {
-    margin-bottom: ;
-}
+
 
 header {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #fff;
+    background-color: #848C8E;
     padding: 0.5em 0 2em;
 }
 
 .logo {
     text-align: center;
+    padding: 10px;
 }
 
-#menu li {
-    float: right;
+
+
+.menu {
     list-style: none;
-    padding-top: 2em;
-    margin-right: 20px;
-
+    display: flex;
+    float: right;
+   
+       
 }
 
-nav a {
+.menu-item a {
     display: inline-block;
-    padding: 0.5em;
-    color: #333;
+    padding: 10px 15px;
     text-decoration: none;
-    font-size: 1.2em;
-
+    color: #333;
+    font-size: 20px;
 }
 
 nav a:hover,
@@ -57,12 +58,12 @@ nav a:focus {
 
 .button-top {
     position: absolute;
-    top: 45%;
-    right: 45%;
+    top: 35%;
+    left: 5%;
     background-color: #fff;
-    min-height: 60px;
-    min-width: 140px;
-    border-radius: 15px;
+    min-height: 40px;
+    min-width: 100px;
+    
 
 }
 
@@ -71,9 +72,14 @@ nav a:focus {
     transition: 0.2s;
 }
 
+section, h2 {
+    background: #F1F2EE;
+}
+
 .services-text {
     text-align: center;
     padding: 0.5em;
+   
 }
 
 .services-container img {
@@ -105,7 +111,7 @@ nav a:focus {
 }
 
 .price-col {
-    background: #f2f1f1;
+    background: #848C8E;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 10% 15%;
     border-radius: 5px;
@@ -132,38 +138,27 @@ nav a:focus {
 }
 
 .testimonials {
-    background: rgb(224, 224, 224);
+    background: #848C8E;
     height: 200px;
     text-align: center;
     padding-top: 20px;
 }
 
 .about {
-    background: #fff;
+    background: #848C8E;
     height: 200px;
     text-align: center;
     padding-top: 20px;
 }
 
 footer {
-    background: rgb(144, 143, 143);
+    background: #848C8E;
     bottom: 0;
     width: 100%;
-    height: 300px;
+    height: 200px;
 
 }
 
-
-
-
-
-.form-control {
-    background-color: #1f2022;
-  
-  
-    color: #d1d2d2;
-    padding: 0.7em 1em;
-}
 
 .social-networks {
     text-align: center;
