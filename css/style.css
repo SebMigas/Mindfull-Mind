@@ -20,7 +20,9 @@ header {
 }
 
 .logo {
-    float: left;  
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: flex-start;
 }
 
 
@@ -42,13 +44,14 @@ header {
 .menu {
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-end;
-    
+    gap: 1rem;
 }
 
 .menu-item a {
     display: inline-block;
-    padding: 10px 15px;
+    margin: 1rem 1rem;
     text-decoration: none;
     color: black;
     font-size: 22px;
