@@ -90,11 +90,11 @@ nav a:focus {
 
 .prices-text {
     text-align: center;
-    padding: 0.5em;
+    padding: 2em;
 }
 
 .price-row {
-
+    
     width: 90%;
     max-width: 1100px;
     margin: auto;
@@ -125,16 +125,44 @@ nav a:focus {
     list-style: none;
 }
 
-.about-text {
+
+.rate-text {
     text-align: center;
-    padding: 0.5em;
+    padding: 2em;
 }
 
-.about {
+
+
+.rate-row {
+
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 25px;
+}
+
+.rate {
     background: #435058;
-    height: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10% 15%;
+    border-radius: 5px;
     text-align: center;
-    padding-top: 20px;
+}
+
+.rate p {
+    font-size: 22px;
+}
+
+.rate h3 {
+    font-size: 40px;
+    margin: 20px 0 40px;
+    font-weight: 500;
+}
+
+.rate ul li {
+    list-style: none;
 }
 
 footer {
