@@ -34,14 +34,13 @@ header {
     position: absolute;
     top: 50%;
     left: 5%;
-    background-color: #fff;
+    background-color: #dcf763ff;
     min-height: 40px;
     min-width: 100px;
 }
 
-.button-top:hover {
-    background-color: #848C8E;
-    transition: 0.2s;
+.button-top:hover { 
+    color: #f16c6b;
 }
 
 nav ul {
@@ -169,6 +168,7 @@ nav a:focus {
     padding: 5% 5%;
     border-radius: 5px;
     text-align: center;
+    margin-bottom: 2em;
 }
 
 .about-row {
@@ -214,7 +214,7 @@ footer {
 .footer-bottom {
     background: #435058;
     width: 100%;
-    padding: 20px;
+    padding: 40px;
     text-align: center;
 }
 
