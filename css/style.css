@@ -13,7 +13,7 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    height: 12%;
+    height: 14%;
     background-color: #264653;
     padding: 0.5em 0 2em;
 
@@ -32,14 +32,15 @@ header {
 
 .button-top {
     position: absolute;
-    top: 50%;
-    left: 5%;
-    background-color: #dcf763ff;
-    min-height: 40px;
-    min-width: 100px;
+    top: 60%;
+    left: 45%;
+    background-color: #E9C46A;
+    min-height: 50px;
+    min-width: 150px;
 }
 
 .button-top:hover { 
+    background-color: #BFB7B6;
     color: #f16c6b;
 }
 
@@ -240,7 +241,7 @@ footer {
 }
 
 .text-input:hover {
-    border-color: #dcf763ff;
+    border-color: #E9C46A;
 }
 
 .signup-form {
@@ -255,7 +256,7 @@ footer {
 }
 
 .signup-form > h2 {
-    color: #dcf763ff;
+    color: #E9C46A;
     margin-bottom: 20px;
 }
 
@@ -265,7 +266,7 @@ footer {
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: #dcf763ff;
+    background-color: #E9C46A;
     color: #435058;
     display: block;
 }
