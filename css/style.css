@@ -14,43 +14,46 @@ header {
     top: 0;
     width: 100%;
     height: 14%;
-    background-color: #264653;
+    background-color: #a3b18a;
     padding: 0.5em 0 2em;
 
 }
 
 .logo {
-    text-align: center;
+    text-align: left;
+    margin: 1rem 0 0 4rem;
 }
+
 
 .logo a {
     text-decoration: none;
     color: black;
 }
 
-
-nav ul {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    justify-content: flex-end;
-    font-size: 22px;
-    gap: 5px;
-    font-weight: 400;
-}
-
-nav a {
-    display: inline-block;
-    padding: 0.5em;
-    color: black;
-    text-decoration: none;
-}
-
-nav a:hover,
-nav a:focus {
+.logo a:hover {
     color: #fff;
-    text-decoration: underline;
+}
+
+.nav-list {
+    font-size: 110%;
+    letter-spacing: 1px;
+}
+
+
+
+.nav-list li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav-list a:hover {
+    border-bottom: 1px solid #3a3a3a;
 }
 
 
@@ -60,11 +63,13 @@ nav a:focus {
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/mm.jpg);
     background-position: top;
     background-size: cover;
+    margin: 2rem 0;
 }
+
 
 .services-text {
     text-align: center;
-    padding: 0.5em;
+
 }
 
 
@@ -73,16 +78,19 @@ nav a:focus {
     grid-template-columns: repeat(3, 1fr);
     gap: .5rem;
     align-items: flex-start;
+    margin: 2rem 0;
 }
 
 .services-container h2 {
     text-align: center;
-    color: white;
+    color: #fff;
+    margin-top: 1rem;
 }
 
 .services-hair {
     height: 600px;
-    background-image: url(../images/haircut.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.3)), url(../images/haircut.jpg);
     border-radius: .30em;
     margin-left: .5rem;
     background-size: cover;
@@ -90,14 +98,16 @@ nav a:focus {
 
 .services-beard {
     height: 600px;
-    background-image: url(../images/beardcut.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.3)), url(../images/beardcut.jpg);
     border-radius: .30em;
     background-size: cover;
 }
 
 .services-shave {
     height: 600px;
-    background-image: url(../images/shave.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.3)), url(../images/shave.jpg);
     border-radius: .30em;
     margin-right: .5rem;
     background-size: cover;
@@ -106,21 +116,19 @@ nav a:focus {
 
 .prices-text {
     text-align: center;
-    padding: 2em;
 }
 
 .price-row {
-
     width: 90%;
     max-width: 1100px;
-    margin: auto;
+    margin: 2rem auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 25px;
 }
 
 .price-col {
-    background: #2A9D8F;
+    background: #a3b18a;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 10% 15%;
     border-radius: .30em;
@@ -144,23 +152,21 @@ nav a:focus {
 
 .rate-text {
     text-align: center;
-    padding: 2em;
 }
 
 
 
 .rate-row {
-
     width: 90%;
     max-width: 1100px;
-    margin: auto;
+    margin: 2rem auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 25px;
 }
 
 .rate {
-    background: #E9C46A;
+    background: #a3b18a;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 10% 15%;
     border-radius: 5px;
@@ -199,7 +205,7 @@ nav a:focus {
 
 
 footer {
-    background: #264653;
+    background: #a3b18a;
     padding: 1em;
 }
 
@@ -208,6 +214,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 2rem 0;
 }
 
 .footer-nav li {
@@ -222,18 +229,17 @@ footer {
 }
 
 .footer-nav a:hover {
-    color: #dcf763ff;
+    color: #fff;
 }
 
 .footer-bottom {
-    background: #264653;
+    background: #a3b18a;
     width: 100%;
     padding: 40px;
-    text-align: center;
 }
 
 .footer-bottom p {
-    float: left;
+    text-align: center;
     font-size: 18px;
     text-transform: capitalize;
 }
@@ -254,12 +260,12 @@ footer {
 }
 
 .text-input:hover {
-    border-color: #E9C46A;
+    border-color: #fff;
 }
 
 .signup-form {
     margin: 150px 10% 0 0;
-    color: #BFB7B6;
+    color: #fff;
     background-color: #75737321;
     max-width: 400px;
     position: absolute;
@@ -269,7 +275,7 @@ footer {
 }
 
 .signup-form>h2 {
-    color: #E9C46A;
+    color: #a3b18a;
     margin-bottom: 20px;
 }
 
@@ -279,7 +285,7 @@ footer {
     padding: 15px 32px 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: #E9C46A;
+    background-color: #a3b18a;
     color: #435058;
     display: block;
 }
