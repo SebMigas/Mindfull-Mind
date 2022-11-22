@@ -15,13 +15,11 @@ header {
     width: 100%;
     height: 14%;
     background-color: #a3b18a;
-    padding: 0.5em 0 2em;
-
 }
 
 .logo {
-    text-align: left;
-    margin: 1rem 0 0 4rem;
+    float: left;
+    margin-left: 20px;
 }
 
 
@@ -34,25 +32,26 @@ header {
     color: #fff;
 }
 
-.nav-list {
+.menu {
     font-size: 150%;
-    letter-spacing: 1px;
 }
 
+.menu, .logo {
+    line-height: 75px;
+}
 
-
-.nav-list li {
+.menu li {
     float: right;
     list-style-type: none;
     margin-right: 30px;
 }
 
-.nav-list a {
+.menu a {
     text-decoration: none;
     color: inherit;
 }
 
-.nav-list a:hover {
+.menu a:hover {
     border-bottom: 1px solid #3a3a3a;
 }
 
@@ -66,6 +65,23 @@ header {
     margin: 2rem 0;
 }
 
+.about {
+    position: absolute;
+    bottom: 100px;
+    left: 50px;
+    max-width: 700px;
+    background-color: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 60px;
+    border-radius: .30em;
+    text-align: center;
+    color: #fff;
+    font-family: Oswald, sans-serif;
+}
+
+.about p {
+    font-size: 02.em;
+}
 
 .services-text {
     text-align: center;
@@ -180,27 +196,11 @@ header {
     font-size: 22px;
 }
 
-.about-text {
-    text-align: center;
-    padding: 2em;
-}
 
-.about {
-    background: #F4A261;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    padding: 5% 5%;
-    border-radius: 5px;
-    text-align: center;
-    margin-bottom: 2em;
-}
 
-.about-row {
 
-    width: 90%;
-    max-width: 1100px;
-    margin: auto;
-    display: grid;
-}
+
+
 
 .about p {
     font-size: 22px;
@@ -300,7 +300,7 @@ footer {
 
 @media screen and (max-width: 950px) {
 
-    .nav-list {
+    .menu {
         clear: left;
         float: left;
         margin-left: 30px;
