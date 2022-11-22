@@ -13,7 +13,7 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    height: 14%;
+    height: 12%;
     background-color: #a3b18a;
 }
 
@@ -76,11 +76,11 @@ header {
     border-radius: .30em;
     text-align: center;
     color: #fff;
-    font-family: Oswald, sans-serif;
 }
 
-.about p {
-    font-size: 02.em;
+.about h3 {
+    font-size: 22px;
+    font-weight: 100;
 }
 
 .services-text {
