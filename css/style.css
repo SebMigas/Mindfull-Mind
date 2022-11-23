@@ -194,16 +194,6 @@ header {
 }
 
 
-
-
-
-
-
-.about p {
-    font-size: 22px;
-}
-
-
 footer {
     background: #a3b18a;
     padding: 1em;
@@ -304,4 +294,5 @@ footer {
         margin-bottom: 20px;
         line-height: 25px;
     }
+  
 }
