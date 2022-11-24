@@ -14,8 +14,7 @@
 ## Navigation
 
 - At the top of the page, navigation shows name of the barber hop
-- At the middle of header is Book now button, redirecting you to contact form
-- The other navigation links are: Services, Prices, About and Contact
+- The other navigation links are: Services, Prices, and Book Now
 
 <img src="readme-assets/header.png" alt="Picture of the header" width="400px" />
 
@@ -65,7 +64,7 @@
 
 - Contact form collect details about customer name, email address and what service want to book
 
-<img src="readme-assets/contact.png" alt="Contact form" width="300px" />
+<img src="readme-assets/contact.png" alt="Book Now form" width="300px" />
 
 ---
 
