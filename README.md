@@ -1,7 +1,7 @@
 # Man Cave Barber
 
 
-<h2><a href="https://luciotorelli.github.io/nature-one/index.html" target="_blank">Live Website here</a></h2>
+<h2><a href="https://sebmigas.github.io/The-Man-Cave-Barber/" target="_blank">Live Website here</a></h2>
 
 ---
 
