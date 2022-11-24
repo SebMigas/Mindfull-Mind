@@ -67,6 +67,12 @@
 
 ---
 
+## Content
+
+- the code to make header and social media taken and adjusted from Love Running project
+
+---
+
 ## Technologies used
 
 - [HTML 5](https://en.wikipedia.org/wiki/HTML5) - The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser.
@@ -95,6 +101,11 @@ The project was deployed using [Github pages](https://pages.github.com/) and upd
 5. Clicking save.
 
 ---
+
+## Credits
+
+* Caleb my mentor. I am grateful for the guidance and all help
+* [@WebDevSimplified](https://github.com/WebDevSimplified) and [@kevin-powell](https://github.com/kevin-powell) for inspiration and tutorials
 
 ### Resources used
 
