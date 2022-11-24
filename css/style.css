@@ -1,3 +1,4 @@
+/* Import Google Font */
 @import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
 
 * {
@@ -5,9 +6,9 @@
     padding: 0;
     font-family: 'Century Gothic,CenturyGothic,AppleGothic,sans-serif';
     box-sizing: border-box;
-
 }
 
+/* Header */
 
 header {
     height: 6rem;
@@ -33,7 +34,8 @@ header {
     font-size: 150%;
 }
 
-.menu, .logo {
+.menu,
+.logo {
     line-height: 75px;
 }
 
@@ -76,8 +78,9 @@ header {
     font-size: 1.2rem;
     font-weight: 100;
     letter-spacing: .03rem;
-
 }
+
+/* Services section */
 
 .services-text {
     text-align: center;
@@ -129,6 +132,8 @@ header {
     background-position: top;
 }
 
+/* Prices section */
+
 .prices-text {
     text-align: center;
 }
@@ -164,6 +169,7 @@ header {
     list-style: none;
 }
 
+/* Testimonials section */
 
 .rate-text {
     text-align: center;
@@ -192,6 +198,7 @@ header {
     font-size: 22px;
 }
 
+/* Footer */
 
 footer {
     background: #a3b18a;
@@ -252,7 +259,9 @@ footer {
     border-color: #fff;
 }
 
-.signup-form {
+/* Book Now section */
+
+.book-now {
     margin: 150px 10% 0 0;
     color: #fff;
     background-color: #75737321;
@@ -263,7 +272,7 @@ footer {
     padding: 20px;
 }
 
-.signup-form>h2 {
+.book-now > h2 {
     color: #a3b18a;
     margin-bottom: 20px;
 }
@@ -284,6 +293,8 @@ footer {
     color: #f16c6b;
 }
 
+/* Media queries */
+
 @media screen and (max-width: 950px) {
 
     .menu {
@@ -293,5 +304,5 @@ footer {
         margin-bottom: 20px;
         line-height: 25px;
     }
-  
+
 }
