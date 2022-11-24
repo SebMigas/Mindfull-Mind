@@ -304,4 +304,8 @@ footer {
         line-height: 10px;
     }
 
+    .menu a {
+        font-size: 90%;
+    }
+
 }
