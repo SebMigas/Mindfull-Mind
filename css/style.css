@@ -31,12 +31,12 @@ header {
 }
 
 .menu {
-    font-size: 150%;
+    font-size: 140%;
 }
 
 .menu,
 .logo {
-    line-height: 75px;
+    line-height: 70px;
 }
 
 .menu li {
