@@ -1,6 +1,8 @@
 # Man Cave Barber
 
 
+<img src="readme-assets/I-am-responsive.png" alt="Screen shot of i am responsive website" width="800px" />
+
 <h2><a href="https://sebmigas.github.io/The-Man-Cave-Barber/" target="_blank">Live Website here</a></h2>
 
 ---
