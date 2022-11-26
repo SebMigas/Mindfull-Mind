@@ -84,11 +84,21 @@
 
 ---
 
-## Testing
+## Validator Testing
 
 - The code for all pages was tested against <a href="https://validator.w3.org/">W3C Markup validation service.</a>
 - The code for the CSS file was tested against <a href="https://jigsaw.w3.org/css-validator/">W3C CSS validation service.</a>
 - All files were tested during development using the <a href="https://github.com/streetsidesoftware/vscode-spell-checker">Spelling checker for Visual Studio Code extension.</a>
+
+---
+
+## Testing
+
+- I tested that tis page works with different browsers: Chrome, Brave, Safari, Firefox
+- I have tested book now form: requires entries in every field, will only accept an email in email field
+- I confirmed that this project is responsive and looks good on all standard screens
+- The footer section provide user with links to the social media of the website and address.
+- I tested that navigation area is readable and easy to understand
 
 ---
 
