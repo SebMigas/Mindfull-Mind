@@ -90,6 +90,8 @@
 - The code for the CSS file was tested against <a href="https://jigsaw.w3.org/css-validator/">W3C CSS validation service.</a>
 - All files were tested during development using the <a href="https://github.com/streetsidesoftware/vscode-spell-checker">Spelling checker for Visual Studio Code extension.</a>
 
+<img src="readme-assets/performance.png" alt="Lighthouse performance indicator" width="500px" />
+
 ---
 
 ## Testing
