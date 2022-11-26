@@ -331,7 +331,7 @@ footer {
 
 /* Back to top button*/
 
-#myBtn {
+#back-top {
   display: none;
   position: fixed;
   bottom: 20px;
@@ -341,14 +341,13 @@ footer {
   outline: none;
   background-color: black;
   color: white;
-  cursor: pointer;
   padding: 15px;
-  border-radius: 10px;
+  border-radius: .30em;
   font-size: 18px;
 }
 
-#myBtn:hover {
-  background-color: #555;
+#back-top:hover {
+  background-color: #BFB7B6;
 }
 
 /* Contact section */
