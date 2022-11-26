@@ -399,7 +399,7 @@ footer {
       padding: 0.5em 0;
       width: 100%;
       color: white;
-      background-color: #222;
+      background-color: #a3b18a;
     }
     .menu > li:not(:last-child) {
       border-bottom: 1px solid #444;
@@ -411,5 +411,6 @@ footer {
 
     .about {
         left: 0;
+        max-height: 200px;
     }
 }
