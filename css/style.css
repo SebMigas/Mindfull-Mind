@@ -1,10 +1,10 @@
 /* Import Google Font */
-@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Cutive+Mono&display=swap');
+
 
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Century Gothic,CenturyGothic,AppleGothic,sans-serif';
     box-sizing: border-box;
 }
 
@@ -17,11 +17,12 @@ header {
 
 .logo {
     float: left;
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 
 .logo a {
+    font-family: 'Courgette', cursive;
     text-decoration: none;
     color: black;
 }
@@ -31,7 +32,7 @@ header {
 }
 
 .menu {
-    font-size: 140%;
+    font-size: 120%;
 }
 
 .menu,
@@ -47,11 +48,11 @@ header {
 
 .menu a {
     text-decoration: none;
-    color: inherit;
+    color: black;
 }
 
 .menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 2px solid #333;
 }
 
 
@@ -72,6 +73,8 @@ header {
     padding: 3rem;
     color: #fff;
     text-align: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 0.30em;
 }
 
 .about p {
@@ -308,4 +311,14 @@ footer {
         font-size: 90%;
     }
 
+}
+
+@media screen and (max-width: 350px) {
+    header {
+        height: 10rem;
+    }
+
+    .about {
+        left: 0;
+    }
 }
