@@ -72,6 +72,7 @@
 
 - the code to make header and social media taken and adjusted from Love Running project
 - The code for the hamburger menu was sourced from https://alvarotrigo.com/blog/hamburger-menu-css/
+- The code for back to top button was sourced from https://www.w3schools.com/
 ---
 
 ## Technologies used
