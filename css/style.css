@@ -29,17 +29,14 @@
     color: #fff;
 }
 
-/* The code for the hamburger menu was sourced from https://alvarotrigo.com/blog/hamburger-menu-css/ */
+
 
 .top-nav {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-color: #00BAF0;
     background: linear-gradient(to left, #94ad6a, #a3b18a);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    color: #FFF;
     height: 50px;
     padding: 1em;
   }
@@ -51,12 +48,26 @@
     margin: 0;
     padding: 0;
   }
-  
-  
+
   .menu > li {
     margin: 0 1rem;
     overflow: hidden;
+    list-style-type: none;
+    text-transform: uppercase;
+    letter-spacing: 4px;
   }
+
+  .menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+  }
+
+  .menu a:hover {
+    color: #fff;
+  }
+
+  /* The code for the hamburger menu was sourced from https://alvarotrigo.com/blog/hamburger-menu-css/ */
   
   .menu-button-container {
     display: none;
@@ -108,48 +119,9 @@
     transform: rotate(-405deg);
   }
   
-  @media (max-width: 700px) {
-    .menu-button-container {
-      display: flex;
-    }
-    .menu {
-      position: absolute;
-      top: 0;
-      margin-top: 50px;
-      left: 0;
-      flex-direction: column;
-      width: 100%;
-      justify-content: center;
-      align-items: center;
-    }
-    #menu-toggle ~ .menu li {
-      height: 0;
-      margin: 0;
-      padding: 0;
-      border: 0;
-      transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
-    }
-    #menu-toggle:checked ~ .menu li {
-      border: 1px solid #333;
-      height: 2.5em;
-      padding: 0.5em;
-      transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
-    }
-    .menu > li {
-      display: flex;
-      justify-content: center;
-      margin: 0;
-      padding: 0.5em 0;
-      width: 100%;
-      color: white;
-      background-color: #222;
-    }
-    .menu > li:not(:last-child) {
-      border-bottom: 1px solid #444;
-    }
-  }
+  
 
-/* HHero Image */
+/* Hero Image */
 
 .hero {
     max-width: 100%;
@@ -393,7 +365,46 @@ footer {
 
 /* Media queries */
 
-
+@media (max-width: 700px) {
+    .menu-button-container {
+      display: flex;
+    }
+    .menu {
+      position: absolute;
+      top: 0;
+      margin-top: 50px;
+      left: 0;
+      flex-direction: column;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+    }
+    #menu-toggle ~ .menu li {
+      height: 0;
+      margin: 0;
+      padding: 0;
+      border: 0;
+      transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    }
+    #menu-toggle:checked ~ .menu li {
+      border: 1px solid #333;
+      height: 2.5em;
+      padding: 0.5em;
+      transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+    }
+    .menu > li {
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      padding: 0.5em 0;
+      width: 100%;
+      color: white;
+      background-color: #222;
+    }
+    .menu > li:not(:last-child) {
+      border-bottom: 1px solid #444;
+    }
+  }
 
 @media screen and (max-width: 800px) {
 
