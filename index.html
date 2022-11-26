@@ -16,18 +16,27 @@
 <body>
     <!-- Header -->
     <header>
-        <h1 class="logo"><a href="index.html">The Man Cave Barber</a></h1>
-        <nav>
+        <!--The code for the hamburger menu was sourced from https://alvarotrigo.com/blog/hamburger-menu-css/ -->
+        <section class="top-nav">
+            <div>
+                <h1 class="logo"><a href="index.html">The Man Cave Barber</a></h1>
+            </div>
+            <input id="menu-toggle" type="checkbox" />
+            <label class='menu-button-container' for="menu-toggle">
+            <div class='menu-button'></div>
+          </label>
             <ul class="menu">
                 <li><a href="index.html#services">Services</a></li>
                 <li><a href="index.html#prices">Prices</a></li>
-                <li><a href="book-now.html">Book Now</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
-        </nav>
+          </section>
+
     </header>
     <main>
         <!--Hero Image-->
         <div class="hero"></div>
+        <!--About-->
         <div class="about">
             <p>Do you need a great haircut and shave? At Man Cave Barber Shop, we specialize in delivering the ultimate
                 barber
