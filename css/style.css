@@ -36,7 +36,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background: linear-gradient(to left, #94ad6a, #a3b18a);
+    background-color: #a3b18a;
     height: 50px;
     padding: 1em;
   }
@@ -138,18 +138,18 @@
     position: absolute;
     bottom: 230px;
     left: 50px;
-    max-width: 600px;
-    padding: 3rem;
+    max-width: 500px;
+    padding: 2rem;
     color: #fff;
-    text-align: left;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
-    border-radius: 0.30em;
+    background-color: rgba(44, 47, 56, 0.241);
+    border-radius: rem;
 }
 
 .about p {
-    font-size: 1.2rem;
-    font-weight: 100;
-    letter-spacing: .03rem;
+    letter-spacing: .1rem;
+    text-align: center;
+    margin: 0 3rem;
+    animation: moveInRight 1s ease-out;
 }
 
 /* Services section */
