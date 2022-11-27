@@ -1,4 +1,4 @@
-# Man Cave Barber
+# The Man Cave Barber
 
 
 <img src="readme-assets/I-am-responsive.png" alt="Screen shot of i am responsive website" width="800px" />
